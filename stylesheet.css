@@ -1,0 +1,36 @@
+ .main{
+    height: 100%;
+    width: 800px;
+    border: 2px solid black;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    text-align: center;
+ }
+    .main div{
+        padding: 50px;
+        font-size: 60px;
+        border: 2px solid black;
+    }
+    #display{
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+    #zero{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        background-color: darkslategrey;
+
+    }
+    .row1{
+        background-color: lightgray;
+    }
+    .col4{
+        background-color: orange;
+    }
+    .num{
+        background-color: darkslategrey;
+    }
+
