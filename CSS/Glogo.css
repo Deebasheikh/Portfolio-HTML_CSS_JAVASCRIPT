@@ -1,0 +1,41 @@
+.box {
+  width: 400px;
+  height: 400px;
+  background-color: plum;
+  margin: 100px auto;
+}
+.box h1 {
+    align-items: center;
+    display: flex;
+  width: 400px;
+  height: 400px;
+  /* background-blend-mode: hue; */
+  background-image: conic-gradient(
+    from -30deg
+    at 38% 60%,
+    red 0deg,
+    red 90deg,
+    blue 90deg,
+    blue 180deg,
+    green 180deg,
+    green 270deg,
+    yellow 270deg,
+    yellow 360deg
+  );
+  font-size: 30em;
+  margin-top: 20px;
+  padding-bottom: 40px;
+  /* @font-face { */
+    /* font-family:  */
+    /* 'facile sans'; */
+    /* src: url('path/to/facile sans.ttf'); */
+  /* } */
+  /* font-family: "Roboto", sans-serif; */
+  /* font-weight: 700; */
+  /* font-style: normal; */
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+
+}

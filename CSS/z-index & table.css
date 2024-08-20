@@ -1,0 +1,50 @@
+ body{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+div{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border: 1px solid #000;
+}
+#box1{
+    background-color: aqua;
+    top: 100px;
+    left: 50px;
+    /* z-index: 2; */
+ }
+#box2{
+    background-color: blue;
+    top: 150px;
+    left: 100px;
+    /* z-index: 1;  */
+    z-index: -1;
+ }
+#box3{
+    background-color: brown;
+    top: 200px;
+    left: 150px;
+    /* z-index: 3;  */
+} 
+table, th, td{
+    border: 1px solid #000;
+    vertical-align: middle;
+}
+table{
+    border-spacing: 5px;
+    width: 300px;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 5px 10px;
+}
+caption{
+    caption-side: top;
+}
+tr:hover{
+    background-color: aqua;
+}
+tr:nth-child(even){
+    background-color: tomato;
+}

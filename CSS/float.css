@@ -1,0 +1,39 @@
+/* #a{ */
+    /* border: 2px solid black; */
+    /* width: 500px; */
+    /* float: left; */
+/* } */
+/* #b{ */
+    /* border: 2px solid black; */
+    /* width: 700px; */
+    /* float: left; */
+/* } */
+/* .a, .b , .c , .d{ */
+    /* float: left; */
+/* } */
+.a{
+    background-color: aqua;
+}
+.b{
+    background-color: blueviolet;
+}
+.c{
+    background-color: blue;
+}
+.d{
+    background-color: red;
+    clear: left;
+}
+.e{
+    background-color: yellow;
+    clear: left;
+}
+div{
+    float: left;
+    margin: 30px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    float: left;
+}

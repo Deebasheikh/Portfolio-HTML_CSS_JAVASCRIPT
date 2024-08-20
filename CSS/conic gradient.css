@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+}
+.box{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 20px;
+    border-radius: 50%;
+}
+.b1{
+    background-image: conic-gradient(green,blue,red);
+}
+.b2{
+    background-image: conic-gradient(from 45deg,green,blue,red);
+}
+.b3{
+    background-image: conic-gradient(green,blue,red,green);
+
+}
+.b4{
+    background-image: conic-gradient(green 90deg,blue,red);
+
+}
+.b5{
+    background-image: repeating-conic-gradient(green 0deg,green 20deg,red 30deg,red 30deg);
+}
+.b6{
+    background-color: blueviolet;
+    background-image: repeating-conic-gradient(rgba(0,0,0,0) 0deg, rgba(0,0,0,0) 20deg,
+    rgba(0,0,0,.5) 20deg, rgba(0,0,0,.5) 30deg
+    );
+
+}
+.b7{
+    background-image: repeating-conic-gradient(green 0deg,green 90deg,red 90deg,red 180deg);
+    background-size: 20px 20px;
+}
+.b8{
+    background-image: repeating-conic-gradient(green 0deg,green 90deg,red 90deg,red 180deg, blue 180deg,blue 270deg, yellow 270deg, yellow 360deg);
+}
+

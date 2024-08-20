@@ -1,0 +1,38 @@
+.box{
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    color: beige;
+    background: linear-gradient(#1e238a,#1488cc);
+    text-align: center;
+    padding-top: 100px;
+    font-size: 20px;
+    transition: 1s;
+    transition-delay: 0.3s;
+    transition-timing-function: ease;
+    font-family: Arial, sans-serif;
+
+    
+}
+.box:hover{
+     /* background: conic-gradient(#1e238a 60deg,#1488cc 40deg,#1e238a 30deg,#1488cc 180deg,#1e238a 360deg); */
+    background-image: conic-gradient(    from -30deg
+    at 38% 45%,
+    red 0deg,
+    red 90deg,
+    blue 50deg,
+    blue 130deg,
+    green 180deg,
+    green 270deg,
+    yellow 290deg,
+    yellow 360deg);
+     border-radius: 50%;
+     /* background-blend-mode: lighten; */
+     background-clip: text;
+     -webkit-background-clip: text;
+     color: transparent;
+     box-shadow: -20px 15px 12px blue;
+     font-size: 1.5em;
+
+
+}

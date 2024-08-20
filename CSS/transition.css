@@ -1,0 +1,39 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;   /*we wanna center the div*/
+    background-color: blueviolet;
+    background-image: url(/images/nature.jpg);
+    /* transition: 1s; */
+    transition-property: background-color, border-radius;
+    transition-timing-function: ease;
+     transition-delay: .5s; /* delay after the hover  */
+    transition-duration: 3s;
+
+}
+.box:hover{
+    background-color: blue;
+    border-radius: 50%;
+    /* transform: rotate(90deg); */
+    background-image: url(/images/mountains.jpg);
+    /* transform: scale(2); */
+    /* transform: skew(20deg); */
+    transform: translate(30px);
+}
+
+/* .box{ */
+    /* background-color: orange; */
+    /* height: 200px; */
+    /* width: 200px; */
+    /* border-radius: 50%; */
+    /* border: 25px solid white; */
+    /* border-image: url(/images/nature.jpg); */
+    /* border-top: 20px solid indigo; */
+    /* animation: ani 2.5s linear infinite; */
+/* } */
+/* @keyframes ani{ */
+    /* to{ */
+        /* transform: rotate(360deg); */
+    /* } */
+/* } */
+

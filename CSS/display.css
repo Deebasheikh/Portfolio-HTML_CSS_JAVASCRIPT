@@ -1,0 +1,24 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1{
+    background-color: aquamarine;
+    /* display: inline; */
+}
+span{
+    background-color: blueviolet;
+    /* display: block; */
+}
+ul{
+    background-color: brown;
+    list-style: none;
+    height: 1cm;
+    line-height: 1cm;
+}
+ul li{
+    background-color: aquamarine;
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+    display: inline-block;
+}

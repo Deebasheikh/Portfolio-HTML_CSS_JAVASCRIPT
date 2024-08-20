@@ -1,0 +1,18 @@
+body{
+    background-color: aqua;
+    font-size: larger;
+}
+@media screen and (max-width:700px)  {
+    body{
+        background-color: olive;
+        font-size: larger;
+        color: rgb(52, 15, 87);
+    }
+}
+@media screen and (max-width:480px)  {
+    body{
+        background-color: rgb(128, 0, 70);
+        font-size: larger;
+        color: rgb(64, 219, 64);
+    }
+}

@@ -1,0 +1,43 @@
+/* h1{ */
+    /* background-color: aqua; */
+/* } */
+/* p{ */
+    /* background-color: blue; */
+/* } */
+/* h2{ */
+    /* background-color: blueviolet; */
+/* } */
+
+/* .demo{ */
+    /* background-color: aqua; */
+/* } */
+/* #para{ */
+    /* background-color: red; */
+/* } */
+*{
+    background-color: blue;
+    color: yellow;
+}
+/* h1,p,h2{ */
+    /* background-color: blueviolet; */
+/* } */
+/* div + p{ */
+    /* background-color: rgb(20, 48, 170); */
+/* } */
+.a p{
+    background-color: rgb(23, 39, 34);
+    border-width: 5px;
+    border-style: dotted;
+    border-color: aquamarine;
+    outline:4px dashed darkred;
+    outline-offset: 5px;
+    max-height: 100px;
+    overflow: hidden;
+}
+.b p{
+    background-color: blueviolet;
+}
+div ~ p{
+    background-color: rgb(221, 3, 50);
+
+}

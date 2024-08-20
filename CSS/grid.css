@@ -1,0 +1,33 @@
+.container{
+    background-color: #eee;
+    width: 700px;
+    margin: 70px 0 0 50px;
+    display: grid;
+    /* grid-template-columns: 30% 200px auto; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    grid-template-columns: repeat(2,250px) 1fr;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+    
+
+}
+.items1{
+    background-color: blueviolet;
+}
+.items2{
+    background-color: rgb(61, 43, 226);
+}
+.items3{
+    background-color: hotpink;
+}
+.items4{
+    background-color: yellow;
+}
+.items5{
+    background-color: aqua;
+}
+.items6{
+    background-color: tomato;
+}

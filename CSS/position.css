@@ -1,0 +1,34 @@
+body{
+    height: 200cm;
+}
+div{
+    height: 2cm;
+    width: 80%;
+    text-align: center;
+}
+.a{
+    background-color: aqua;
+    /* position: static; */
+    /* top: 1cm; */
+    /* margin: 20cm; */
+    /* position: relative; */
+    /* left: 2cm; */
+    /* top: 3cm; */
+    
+}
+.b{
+    background-color: blueviolet;
+    position: relative;
+    top: 1cm;
+}
+.c{
+    background-color: red;
+    /* position: absolute; */
+    /* top: 1cm; */
+    /* position: sticky; */
+    /* top: 0; */
+}
+.d{
+    background-color: palevioletred;
+    /* position: sticky; */
+}
