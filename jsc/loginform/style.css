@@ -1,0 +1,18 @@
+*{
+    background-image: linear-gradient(pink,rgb(187, 150, 187));
+    font-family:'Times New Roman', Times, serif;
+    font-size: 21px;
+    /* z-index: -1; */
+}
+.form{
+    /* border-radius: auto; */
+    width: 45%;
+    height: 50%;
+    text-align: center;
+    border: 2px solid black;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+
+
+}
